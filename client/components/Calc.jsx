@@ -1,4 +1,3 @@
-import e from 'express'
 import React, { useState } from 'react'
 
 
@@ -23,10 +22,9 @@ const Calc = () => {
                 type='text'
                 placeholder='Something'
                 dir="rtl"
-                value={num}
             ></input>
 
-            <button onClick={() => {handleClick(e)}}>1</button>
+            <button onClick={(e) => {handleClick(e)}}>1</button>
             <button>2</button>
             <button>+</button>
             <button>=</button>
