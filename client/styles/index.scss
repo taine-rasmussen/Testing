@@ -23,7 +23,36 @@ margin-right: -12rem;
 .menuBtn{
 background-color: rgb(243, 189, 119);
 }
-
 // ---- Menu ----
+// ***************
+// ----TicTacToe ----
+.ticContainer{
 
+}
+
+.ticGameContainer{
+border: solid 4px rgb(53, 73, 33); 
+height: 60vh;
+width: 32.5vw;
+margin-left: 29vw;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+
+.ticCell{
+  border: solid 4px rgb(53, 73, 33);
+  flex-direction: column;
+  background-color: rgb(146, 190, 101);
+  flex-wrap: wrap;
+}
+
+.ticCell:hover{
+  background-color: rgba(146, 190, 101, 0.712);
+}
+// ----TicTacToe ----
+// ***************
+// ---- Calc ----
+
+
+// ---- Calc ----
 
