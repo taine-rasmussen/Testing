@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Route, Link } from 'react-router-dom'
 
 //Components
 import Calc from './Calc'
@@ -12,10 +12,12 @@ const Menu = () => {
     return (
         <div className='menuContainer'> 
             <h1 className='menuTitle'>Projects?</h1>
-            <button className='menuBtn'>Calc</button>
-            <button className='menuBtn'>Project1</button>
-            <button className='menuBtn'>Project2</button>
-            <button className='menuBtn'>Project3</button>
+
+            <Link to='/calc'><button className='menuBtn'>Calc</button></Link>
+            <Link to='/project1'><button className='menuBtn'>Project1</button></Link>
+            <Link to='/project2'><button className='menuBtn'>Project2</button></Link>
+            <Link to='/project3'><button className='menuBtn'>Project3</button></Link>
+            
         </div>
     )
 }
