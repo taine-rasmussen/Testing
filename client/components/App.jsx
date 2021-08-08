@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom'
 
 //Components
 import Menu from './Menu'
@@ -11,21 +11,14 @@ import Project3 from './Project3'
 
 function App () {
 
-  return (
-    <>
+      return(
       <div className='app'>
-        <Router >
-          <Switch>
-            <Route exact path='/'>
-              <Menu />
-            </Route>
-            <Route path='/project1' >
-              <Project1 />
-            </Route>
-          </Switch>
-        </Router>
+        <Route exact path='/' component={Menu} />
+        <Route exact path='/calc' component={Calc} />
+        <Route exact path='/project1' component={Project1} />
+        <Route exact path='/project2' component={Project2} />
+        <Route exact path='/project3' component={Project3} />
       </div>
-    </>
   )
 }
 
