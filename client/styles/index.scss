@@ -4,3 +4,26 @@ html,
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+// ---- Menu ----
+.menuContainer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}
+
+.menuTitle{
+margin-top: -30rem;
+font-size: 5rem;
+margin-right: -12rem;
+}
+
+.menuBtn{
+background-color: rgb(243, 189, 119);
+}
+
+// ---- Menu ----
+
+
