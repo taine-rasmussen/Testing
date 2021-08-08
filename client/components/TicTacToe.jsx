@@ -1,6 +1,9 @@
 import React, {  useState, useEffect } from 'react'
 import { Route, Link } from 'react-router-dom'
 
+//Strech ideas:
+//Game timer
+
 
 const TicTacToe = () => {
 
@@ -24,12 +27,16 @@ const TicTacToe = () => {
     }
  }
 
+ //Sets state back to empty string to clear board - strech idea: resets clock once its added
+const newGame = () => {
+    setTic('')
+}
+
 
 
     return(
         <div className='ticContainer'>
             <h1>TicTacToe</h1>
-
                 <div className='ticGameContainer'>
                     <div className='ticCell' onClick={handleClick}>
                         <h3 className='ticValue'>{tic}</h3>
@@ -59,9 +66,7 @@ const TicTacToe = () => {
                         <h3 className='ticValue'>{tic}</h3>
                     </div>
                 </div>
-
-
-
+                <button onClick={newGame}>New Game!</button>
             <Link to='/'><button>Home</button></Link>
         </div>
     )
