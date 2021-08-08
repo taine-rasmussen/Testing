@@ -17,7 +17,6 @@ const Menu = () => {
             <Link to='/project1'><button className='menuBtn'>Project1</button></Link>
             <Link to='/project2'><button className='menuBtn'>Project2</button></Link>
             <Link to='/project3'><button className='menuBtn'>Project3</button></Link>
-            
         </div>
     )
 }
