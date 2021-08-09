@@ -1,15 +1,15 @@
 import React from 'react'
-import { Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
-const Project2 = () => {
+const Kaleidoscope = () => {
 
     return(
         <div>
-            <h1>Project2</h1>
+            <h1>Kaleidoscope</h1>
             <Link to='/'><button>Home</button></Link>
         </div>
     )
 }
 
-export default Project2
+export default Kaleidoscope

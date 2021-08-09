@@ -5,7 +5,7 @@ import { Route } from 'react-router-dom'
 import Menu from './Menu'
 import Calc from './Calc'
 import TicTacToe from './TicTacToe'
-import Project2 from './Project2'
+import Kaleidoscope from './Kaleidoscope'
 import Project3 from './Project3'
 
 
@@ -16,7 +16,7 @@ function App () {
         <Route exact path='/' component={Menu} />
         <Route exact path='/calc' component={Calc} />
         <Route exact path='/tictactoe' component={TicTacToe} />
-        <Route exact path='/project2' component={Project2} />
+        <Route exact path='/kaleidoscope' component={Kaleidoscope} />
         <Route exact path='/project3' component={Project3} />
       </div>
   )

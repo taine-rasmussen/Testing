@@ -23,8 +23,7 @@ const TicTacToe = () => {
 // If num is even setTic O
 // If num is odd setTic X
  const handleClick = () => {
-    
-    
+     
     if (num % 2 == 0) {
         setTic(move1)
         setNum(num + 1)
