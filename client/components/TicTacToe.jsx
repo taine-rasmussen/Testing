@@ -5,6 +5,13 @@ import { Link } from 'react-router-dom'
 //Game timer 
 
 
+// Re game loop
+// Use array of all possible win conditions [[1, 2, 3], [4, 5, 6]]
+// If all those positions are filled with the value of X or O win state is flipped to true - at winning badge or something pops up
+// Stops the timer
+// Play again button appears 
+
+
 const TicTacToe = () => {
 
     const [tic, setTic] = useState('')

@@ -5,7 +5,7 @@ import { Route } from 'react-router-dom'
 import Menu from './Menu'
 import Calc from './Calc'
 import TicTacToe from './TicTacToe'
-import Kaleidoscope from './Kaleidoscope'
+import Kaleidoscope from './Kaleidoscope/Kaleidoscope'
 import Project3 from './Project3'
 
 
