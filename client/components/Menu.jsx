@@ -4,7 +4,7 @@ import { Route, Link } from 'react-router-dom'
 //Components
 import Calc from './Calc'
 import TicTacToe from './TicTacToe'
-import Kaleidoscope from './kaleidoscope'
+import Kaleidoscope from './Kaleidoscope/Kaleidoscope'
 import Project3 from './Project3'
 
 const Menu = () => {
