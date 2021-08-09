@@ -15,6 +15,15 @@ const Cell = () => {
         backgroundColor: styleColor
     }
 
+
+    useEffect(() => {
+        setInterval(randomColour, 100);
+    },[styleColor])
+
+    const randomColour = () => {
+        setStyleColor(randomHexColor())
+    }
+
     const mouseEnter = () => {
         setStyleColor(randomHexColor)
     }
@@ -24,7 +33,7 @@ const Cell = () => {
     }
 
     const mouseLeave = () => {
-        setStyleColor('#999999')
+        setStyleColor(randomHexColor)
     }
 
     return (
