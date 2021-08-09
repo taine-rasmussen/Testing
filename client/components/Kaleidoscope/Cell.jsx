@@ -11,7 +11,7 @@ const Cell = () => {
 
     let style = {
         height: '100px',
-        width: '1205px',
+        width: '100px',
         backgroundColor: styleColor
     }
 
@@ -19,9 +19,17 @@ const Cell = () => {
         setStyleColor(randomHexColor)
     }
 
+    const mouseClick = () => {
+        setStyleColor(randomHexColor)
+    }
+
     return (
         <>
-         <div style={style} onMouseEnter={mouseEnter}></div>
+            <div
+                style={style}
+                onMouseEnter={mouseEnter}
+                onClick={mouseClick}
+            ></div>
         </>
     )
 }

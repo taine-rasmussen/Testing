@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom'
 import Cell from './Cell'
 
 
+//Stretch:
+// Add input on page that allows user to change amount of total cells-State
+
+
 const Kaleidoscope = () => {
 
     const divStyle = {
@@ -17,7 +21,7 @@ const Kaleidoscope = () => {
             <h1>Kaleidoscope</h1>
 
             <div style={divStyle}>
-                {Array(10).fill(<Cell />)}
+                {Array(1000).fill(<Cell />)}
             </div>
             <Link to='/'><button>Home</button></Link>
         </div>
