@@ -21,7 +21,7 @@ const Kaleidoscope = () => {
             <h1>Kaleidoscope</h1>
 
             <div style={divStyle}>
-                {Array(1000).fill(<Cell />)}
+                {Array(10).fill(<Cell />)}
             </div>
             <Link to='/'><button>Home</button></Link>
         </div>

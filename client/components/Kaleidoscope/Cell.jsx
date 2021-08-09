@@ -11,7 +11,7 @@ const Cell = () => {
 
     let style = {
         height: '100px',
-        width: '100px',
+        width: '1204px',
         backgroundColor: styleColor
     }
 
@@ -20,7 +20,11 @@ const Cell = () => {
     }
 
     const mouseClick = () => {
-        setStyleColor(randomHexColor)
+        setStyleColor('#000000')
+    }
+
+    const mouseLeave = () => {
+        setStyleColor('#999999')
     }
 
     return (
@@ -29,6 +33,7 @@ const Cell = () => {
                 style={style}
                 onMouseEnter={mouseEnter}
                 onClick={mouseClick}
+                onMouseLeave={mouseLeave}
             ></div>
         </>
     )
